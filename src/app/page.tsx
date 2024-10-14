@@ -418,7 +418,25 @@ export default function Home() {
         </main>
       </div>
       <footer className="flex items-center justify-between border-zinc-700 border-t bg-zinc-800 p-6">
-        footer
+        <div className="flex items-center gap-3">
+          <Image
+            src="/album.png"
+            width={56}
+            height={56}
+            alt="Capa do álbum Toxicity da banda System of a Down"
+          />
+
+          <div className="flex flex-col">
+            <strong className="font-normal">Toxicity</strong>
+            <span className="text-xs text-zinc-400">System of a Down</span>
+          </div>
+
+          <Heart className="ml-1 size-5" />
+        </div>
+        <div className="flex flex-col items-center">
+          <div></div>
+        </div>
+        <div className=""></div>
       </footer>
     </div>
   )
